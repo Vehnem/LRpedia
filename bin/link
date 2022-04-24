@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+
+export HADOOP_HOME="/home/marvin/hadoop"
+java -Xmx10g -cp target/lrpedia-1.0-SNAPSHOT-jar-with-dependencies.jar org.dbpedia.Linking $@
+#java cp target/* org.dbpedia.Linking" -Dexec.args="$*"
