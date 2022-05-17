@@ -1,0 +1,2 @@
+pandas
+databusclient==0.1
